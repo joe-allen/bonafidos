@@ -1,0 +1,92 @@
+// Black & White
+$black: #212121 !default;
+$white: #fff !default;
+
+// Grey
+$grey-hue: 205 !default;
+$grey-50: hsl($grey-hue, 20%, 94%) !default;
+$grey-100: hsl($grey-hue, 18%, 86%) !default;
+$grey-200: hsl($grey-hue, 16%, 77%) !default;
+$grey-300: hsl($grey-hue, 14%, 68%) !default;
+$grey-400: hsl($grey-hue, 12%, 59%) !default;
+$grey-500: hsl($grey-hue, 10%, 50%) !default;
+$grey-600: hsl($grey-hue, 15%, 41%) !default;
+$grey-700: hsl($grey-hue, 20%, 32%) !default;
+$grey-800: hsl($grey-hue, 25%, 23%) !default;
+$grey-900: hsl($grey-hue, 30%, 15%) !default;
+
+// Amber
+$amber-50: #fff8e1 !default;
+$amber-100: #ffecb3 !default;
+$amber-200: #ffe082 !default;
+$amber-300: #ffd54f !default;
+$amber-400: #ffca28 !default;
+$amber-500: #ffc107 !default;
+$amber-600: #ffb300 !default;
+$amber-700: #ffa000 !default;
+$amber-800: #ff8f00 !default;
+$amber-900: #ff6f00 !default;
+
+// Green
+$green-50: #e8f5e9 !default;
+$green-100: #c8e6c9 !default;
+$green-200: #a5d6a7 !default;
+$green-300: #81c784 !default;
+$green-400: #66bb6a !default;
+$green-500: #4caf50 !default;
+$green-600: #43a047 !default;
+$green-700: #388e3c !default;
+$green-800: #2e7d32 !default;
+$green-900: #1b5e20 !default;
+
+// Error
+$red-hue: 345 !default;
+$red-50: hsl($red-hue, 90%, 94%) !default;
+$red-100: hsl($red-hue, 88%, 86%) !default;
+$red-200: hsl($red-hue, 86%, 77%) !default;
+$red-300: hsl($red-hue, 84%, 68%) !default;
+$red-400: hsl($red-hue, 82%, 59%) !default;
+$red-500: hsl($red-hue, 80%, 56%) !default;
+$red-600: hsl($red-hue, 86%, 52%) !default;
+$red-700: hsl($red-hue, 90%, 32%) !default;
+$red-800: hsl($red-hue, 95%, 23%) !default;
+$red-900: hsl($red-hue, 100%, 15%) !default;
+
+// Primary
+$primary-hue: 225 !default;
+$primary-50: hsl($primary-hue, 90%, 94%) !default;
+$primary-100: hsl($primary-hue, 88%, 86%) !default;
+$primary-200: hsl($primary-hue, 86%, 77%) !default;
+$primary-300: hsl($primary-hue, 84%, 68%) !default;
+$primary-400: hsl($primary-hue, 82%, 59%) !default;
+$primary-500: hsl($primary-hue, 80%, 56%) !default;
+$primary-600: hsl($primary-hue, 86%, 52%) !default;
+$primary-700: hsl($primary-hue, 90%, 32%) !default;
+$primary-800: hsl($primary-hue, 95%, 23%) !default;
+$primary-900: hsl($primary-hue, 100%, 15%) !default;
+
+// Secondary
+$secondary-hue: 165 !default;
+$secondary-50: hsl($secondary-hue, 90%, 94%) !default;
+$secondary-100: hsl($secondary-hue, 88%, 86%) !default;
+$secondary-200: hsl($secondary-hue, 86%, 77%) !default;
+$secondary-300: hsl($secondary-hue, 84%, 68%) !default;
+$secondary-400: hsl($secondary-hue, 82%, 59%) !default;
+$secondary-500: hsl($secondary-hue, 80%, 56%) !default;
+$secondary-600: hsl($secondary-hue, 86%, 52%) !default;
+$secondary-700: hsl($secondary-hue, 90%, 32%) !default;
+$secondary-800: hsl($secondary-hue, 95%, 23%) !default;
+$secondary-900: hsl($secondary-hue, 100%, 15%) !default;
+
+// Accent
+$accent-hue: 45 !default;
+$accent-50: hsl($accent-hue, 90%, 94%) !default;
+$accent-100: hsl($accent-hue, 88%, 86%) !default;
+$accent-200: hsl($accent-hue, 86%, 77%) !default;
+$accent-300: hsl($accent-hue, 84%, 68%) !default;
+$accent-400: hsl($accent-hue, 82%, 59%) !default;
+$accent-500: hsl($accent-hue, 80%, 56%) !default;
+$accent-600: hsl($accent-hue, 86%, 52%) !default;
+$accent-700: hsl($accent-hue, 90%, 32%) !default;
+$accent-800: hsl($accent-hue, 95%, 23%) !default;
+$accent-900: hsl($accent-hue, 100%, 15%) !default;

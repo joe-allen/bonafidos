@@ -1,0 +1,65 @@
+/**
+ * Theme: default
+ */
+ :root {
+		// TYPOGRAPHY (https://utopia.fyi/type/calculator?c=320,16,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12)
+		--font-family: 'TTFors', system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+			"Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+			"Segoe UI Symbol", "Noto Color Emoji";
+		--line-height: 1.5;
+		--font-weight: 400;
+		--font-size: 16px;
+
+		// FONT SIZE
+		--step--2: clamp(0.69rem, calc(0.65rem + 0.21vw), 0.80rem);
+		--step--1: clamp(0.83rem, calc(0.77rem + 0.33vw), 1.00rem);
+		--step-0: clamp(1.00rem, calc(0.90rem + 0.49vw), 1.25rem);
+		--step-1: clamp(1.20rem, calc(1.06rem + 0.71vw), 1.56rem);
+		--step-2: clamp(1.44rem, calc(1.24rem + 1.00vw), 1.95rem);
+		--step-3: clamp(1.73rem, calc(1.45rem + 1.39vw), 2.44rem);
+		--step-4: clamp(2.07rem, calc(1.69rem + 1.91vw), 3.05rem);
+		--step-5: clamp(2.49rem, calc(1.97rem + 2.59vw), 3.82rem);
+
+		// SPACING (https://utopia.fyi/space/calculator?c=320,16,1.2,1240,64,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12)
+		--space-3xs: clamp(0.25rem, calc(-0.04rem + 1.46vw), 1.00rem);
+		--space-2xs: clamp(0.50rem, calc(-0.09rem + 2.93vw), 2.00rem);
+		--space-xs: clamp(0.75rem, calc(-0.13rem + 4.39vw), 3.00rem);
+		--space-s: clamp(1.00rem, calc(-0.17rem + 5.85vw), 4.00rem);
+		--space-m: clamp(1.50rem, calc(-0.26rem + 8.78vw), 6.00rem);
+		--space-l: clamp(2.00rem, calc(-0.34rem + 11.71vw), 8.00rem);
+		--space-xl: clamp(3.00rem, calc(-0.51rem + 17.56vw), 12.00rem);
+		--space-2xl: clamp(4.00rem, calc(-0.68rem + 23.41vw), 16.00rem);
+		--space-3xl: clamp(6.00rem, calc(-1.02rem + 35.12vw), 24.00rem);
+		/* One-up pairs */
+		--space-3xs-2xs: clamp(0.25rem, calc(-0.43rem + 3.41vw), 2.00rem);
+		--space-2xs-xs: clamp(0.50rem, calc(-0.48rem + 4.88vw), 3.00rem);
+		--space-xs-s: clamp(0.75rem, calc(-0.52rem + 6.34vw), 4.00rem);
+		--space-s-m: clamp(1.00rem, calc(-0.95rem + 9.76vw), 6.00rem);
+		--space-m-l: clamp(1.50rem, calc(-1.04rem + 12.68vw), 8.00rem);
+		--space-l-xl: clamp(2.00rem, calc(-1.90rem + 19.51vw), 12.00rem);
+		--space-xl-2xl: clamp(3.00rem, calc(-2.07rem + 25.37vw), 16.00rem);
+		--space-2xl-3xl: clamp(4.00rem, calc(-3.80rem + 39.02vw), 24.00rem);
+		/* Custom pairs */
+		--space-s-l: clamp(1.00rem, calc(-1.73rem + 13.66vw), 8.00rem);
+
+		--spacing: 1rem;
+		--typography-spacing-vertical: 1.5rem;
+		--block-spacing-vertical: calc(var(--spacing) * 2);
+		--block-spacing-horizontal: var(--spacing);
+		--grid-spacing-vertical: 0;
+		--grid-spacing-horizontal: var(--spacing);
+		--form-element-spacing-vertical: 0.5rem;
+		--form-element-spacing-horizontal: 1.75rem;
+		--nav-element-spacing-vertical: 1rem;
+		--nav-element-spacing-horizontal: 0.5rem;
+		--nav-link-spacing-vertical: 0.5rem;
+		--nav-link-spacing-horizontal: 0.5rem;
+
+		// ELEMENT
+		--border-radius: 0.25rem;
+		--border-width: 1px;
+		--outline-width: 3px;
+		--form-label-font-weight: var(--font-weight);
+		--transition: .2s ease-in-out;
+		--modal-overlay-backdrop-filter: blur(0.25rem);
+	}

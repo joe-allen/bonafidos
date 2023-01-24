@@ -1,0 +1,18 @@
+// Breakpoints
+// 'null' disable the breakpoint
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px,
+) !default;
+
+// Viewports
+$viewports: (
+  // 'null' disable the viewport on a breakpoint
+  sm: 510px,
+  md: 700px,
+  lg: 960px,
+  xl: 1140px
+) !default;

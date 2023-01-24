@@ -1,0 +1,54 @@
+/*!
+ * Pico.css v1.5.6 (https://picocss.com)
+ * Copyright 2019-2022 - Licensed under MIT
+ *
+ * Slim version example
+ * You can export only the modules you need
+ */
+
+// Config
+// --------------------
+
+// Set the root element for $enable-semantic-container and $enable-responsive-spacings
+$semantic-root-element: "div"; // for svelte
+
+// Enable responsive spacings for <header>, <main>, <footer>, <section>, <article>
+$enable-responsive-spacings: false;
+
+// Enable responsive typography
+// Fixed root element size if disabled
+$enable-responsive-typography: false; // using utopia type / space scales instead
+
+// Enable transitions
+$enable-transitions: true;
+
+// Enable overriding with !important
+$enable-important: false;
+
+// Pico Lib
+// --------------------
+
+// Config
+@import "@picocss/pico/scss/variables";
+
+// Theming
+// @import "@picocss/pico/scss/themes/default"; theme inside _vars.scss
+
+// Layout
+@import "@picocss/pico/scss/layout/document"; // html
+@import "@picocss/pico/scss/layout/sectioning"; // body, header, main, footer
+@import "@picocss/pico/scss/layout/container"; // .container, .container-fluid
+// @import "@picocss/pico/scss/layout/section"; // section
+// @import "@picocss/pico/scss/layout/grid"; // .grid
+// @import "@picocss/pico/scss/layout/scroller"; // figure
+
+// Content
+@import "@picocss/pico/scss/content/typography"; // a, headings, p, ul, blockquote, ...
+@import "@picocss/pico/scss/content/embedded"; // audio, canvas, iframe, img, svg, video
+@import "@picocss/pico/scss/content/button"; // button, a[role=button], type=button, type=submit ...
+@import "@picocss/pico/scss/content/form"; // input, select, textarea, label, fieldset, legend
+@import "@picocss/pico/scss/content/table"; // table, tr, td, ...
+
+// Utilities
+@import "@picocss/pico/scss/utilities/accessibility"; // -ms-touch-action, aria-*
+@import "@picocss/pico/scss/utilities/reduce-motion"; // prefers-reduced-motion

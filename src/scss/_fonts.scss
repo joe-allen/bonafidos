@@ -1,0 +1,10 @@
+/* TT Fors Variable - latin */
+@font-face {
+  font-family: 'TTFors';
+  // font-style: normal;
+	font-style: italic;
+	font-weight: 125 950;
+	font-stretch: 75% 125%;
+  src: local(''),
+       url('../fonts/ttforsvariable.ttf') format('truetype');
+}
